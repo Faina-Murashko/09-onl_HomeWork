@@ -38,7 +38,7 @@ public class Month {
     }
 }*/
 
-import java.util.Random;
+/*import java.util.Random;
 
 public class Month {
     public static void main(String[] args){
@@ -73,4 +73,40 @@ public class Month {
             System.out.println("Вы выбрали месяц Декабрь");
         else {
             System.out.println("Выберите месяц");
+        }*/
+//Switch
+public class Switch_Month {
+    public static void main(String[] args){
+        int month = 5;
+        String season;
+        switch (month) {
+            case 12:
+            case 1:
+            case 2:
+                season = "Whinter";
+                break;
+            case 3:
+            case 4:
+            case 5:
+                season = "Spring";
+                break;
+            case 6:
+            case 7:
+            case 8:
+                season = "Summer";
+                break;
+            case 9:
+            case 10:
+            case 11:
+                season = "Autumn";
+                break;
+            default:
+                season = "No such season";
+
         }
+        System.out.println("Summer is coming soon" + season);
+
+    }
+}
+
+
